@@ -1,0 +1,32 @@
+go 1.22
+
+use (
+	./01-foundations/01-variables
+	./01-foundations/02-functions
+	./01-foundations/03-errors
+	./01-foundations/04-slices-maps
+	./01-foundations/05-structs-methods
+	./02-interfaces/01-basics
+	./02-interfaces/02-composition
+	./02-interfaces/03-io-contracts
+	./02-interfaces/04-type-assertions
+	./02-interfaces/05-custom-errors
+	./03-stdlib/01-strings-fmt
+	./03-stdlib/02-file-io
+	./03-stdlib/03-http-client
+	./03-stdlib/04-json
+	./03-stdlib/05-context
+	./04-concurrency/01-goroutines
+	./04-concurrency/02-channels
+	./04-concurrency/03-select
+	./04-concurrency/04-sync
+	./04-concurrency/05-patterns
+	./05-tooling/01-testing
+	./05-tooling/02-modules
+	./05-tooling/02-modules/examples/child
+	./05-tooling/03-benchmarks
+	./05-tooling/04-build-flags
+	./06-projects/01-cli-tool
+	./06-projects/02-rest-api
+	./06-projects/03-worker-pool
+)
